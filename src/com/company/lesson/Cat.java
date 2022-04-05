@@ -2,11 +2,10 @@ package com.company.lesson;
 
 public class Cat extends Animal {
     public Cat() {
-        MaxRunDistance = 200;
-        MaxSwimDistance = 0;
-        name = "Кот Барсик";
-        Run(150);
-        Swim(10);
-        Cat cat = new Cat();
+        maxRunDistance = 200;
+        name = "Кот";
+    }
+    public void swim(int distanceSwim) {
+            System.out.println(name + " не умеет плавать.");
     }
 }
